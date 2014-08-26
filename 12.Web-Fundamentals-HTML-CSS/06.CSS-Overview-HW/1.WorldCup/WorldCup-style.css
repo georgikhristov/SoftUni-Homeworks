@@ -1,0 +1,107 @@
+﻿#wrapper {
+    background-color:#00923E;
+    font-family:Calibri;
+    width:1035px;
+    font-size:25px;
+    padding:20px;
+}
+
+    table {
+        border:solid 1px;
+        border-radius:25px;
+        border-spacing:0px;
+        text-align:center;
+    }
+
+        th:first-child {
+            border-top-left-radius:23px;
+        }
+        th:last-child {
+            border-top-right-radius:23px;
+        }
+        tr:last-child td:first-child {
+            border-bottom-left-radius:23px;
+        }
+        tr:last-child td:last-child {
+            border-bottom-right-radius:23px;
+        }
+
+        tr:nth-child(odd) {
+            background-color:white;
+        }
+        tr:nth-child(even) {
+            background-color:#C8C8C8;
+        }
+
+        td, th {
+            border:solid 1px;
+            padding: 5px 10px;
+            vertical-align:middle;
+        }
+
+        th {
+            font-size:1.2em;
+            font-weight:bold;
+            background-color:#F8C711;
+        }
+
+        .left-country {
+            text-align:right;
+        }
+        .right-country {
+            text-align:left;
+        }
+
+        #brazil:after {
+            content: url("images/brazil.jpg");
+        }
+        #spain:after {
+            content: url("images/spain.jpg");
+        }
+        #italy:after {
+            content: url("images/italy.jpg");
+        }
+        #argentina:after {
+            content: url("images/argentina.jpg");
+        }
+        #germany:after {
+            content: url("images/germany.jpg");
+        }
+        #mexico:before {
+            content: url("images/mexico.jpg");
+        }
+        #bosna:before {
+            content: url("images/bosna.jpg");
+        }
+        #netherlands:before {
+            content: url("images/netherlands.jpg");
+        }
+        #england:before {
+            content: url("images/england.jpg");
+        }
+        #portugal:before {
+            content: url("images/portugal.jpg");
+        }
+
+    button {
+        height:40px;
+        border-radius:23px;
+        color:white;
+        text-transform:uppercase;
+    }
+
+        button.red {
+            background-color:red;
+        }
+
+        button.green {
+            background-color:green;
+        }
+
+    select.red{
+        color:red;
+    }
+
+    select.green {
+        color:green;
+    }

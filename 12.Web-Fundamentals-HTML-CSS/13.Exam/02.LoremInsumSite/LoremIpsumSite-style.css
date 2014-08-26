@@ -1,0 +1,152 @@
+﻿body, html, header, footer, section, div, p, img, a, ul, li, nav, h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+    body > div.background {
+        background-color: #EEEEEE;
+        width: 100%;
+        border-bottom:1px solid #E6E6E6;
+    }
+        body > div.background:last-child {
+            border:none;
+            border-top:1px solid #E6E6E6;
+        }
+
+    body > div > header {
+        width: 920px;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+        body > div > header > nav > ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            body > div > header > nav > ul > li {
+                list-style: none;
+                align-self: center;
+            }
+
+                body > div > header > nav > ul > li > a {
+                    color: #81889A;
+                    font-weight: bold;
+                    text-decoration: none;
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+
+                    body > div > header > nav > ul > li > a:hover {
+                        background-color: #CAD1D1;
+                        cursor: pointer;
+                        color:#555555;
+                    }
+
+                body > div > header > nav > ul > li:nth-child(2) > a {
+                    color: #F9981F;
+                }
+
+    body > section {
+        width: 840px;
+        margin: 40px auto;
+    }
+
+        body > section > h1 {
+            color: #3E3E3E;
+        }
+
+        body > section > div {
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+            margin-right: 4%;
+        }
+
+            body > section > div:last-child {
+                margin: 0 0 0 4%;
+            }
+
+            body > section > div > p {
+                line-height: 22px;
+                color: #585858;
+                margin: 30px 0;
+            }
+
+    body > div > footer {
+        width: 920px;
+        margin: 0 auto;
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        body > div > footer > nav {
+            width: 250px;
+            align-self: center;
+        }
+
+        body > div > footer > p {
+            align-self: center;
+            font-size: 0.8rem;
+            color: #585858;
+        }
+
+        body > div > footer > nav > ul {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+
+            body > div > footer > nav > ul > li {
+                list-style: none;
+                align-self: center;
+                max-width: 100%;
+                width: 30px;
+                height: 30px;
+            }
+
+                body > div > footer > nav > ul > li > a {
+                    background-image: url("img/icons.png");
+                    max-width: 100%;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(1) > a {
+                    background-position: 0 0;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(1):hover > a {
+                    background-position: 30px 0;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(2) > a {
+                    background-position: 0 110px;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(2):hover > a {
+                    background-position: 30px 110px;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(3) > a {
+                    background-position: 0 70px;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(3):hover > a {
+                    background-position: 30px 70px;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(4) > a {
+                    background-position: 0 30px;
+                }
+
+                body > div > footer > nav > ul > li:nth-child(4):hover > a {
+                    background-position: 30px 30px;
+                }

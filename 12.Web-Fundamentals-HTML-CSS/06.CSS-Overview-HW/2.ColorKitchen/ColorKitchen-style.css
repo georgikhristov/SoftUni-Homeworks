@@ -1,0 +1,52 @@
+﻿body {
+    background-image:url("images/colorful_dots_on_black.jpg");
+    font-family:Calibri;
+}
+body > header {
+    background:linear-gradient(to right,red,red 33.3%, green 33.3%, green 67.7%,blue 67.7%);
+    color:yellow;
+    text-align:center;
+    font-weight:bold;
+    font-size:3rem;
+}
+aside {
+    background-color:rgba(255,255,255, .9);
+    border-radius:10px;
+    float:left;
+    margin:10px;
+    padding:10px;
+    width:285px;
+
+}
+section > article {
+    float:right;
+    width:960px;
+    clear:right;
+    background-color:rgba(255,255,255, .9);
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+}
+    section > article > header {
+        font-size:1.5rem;
+        border-radius:5px;
+        padding:5px;
+    }
+        section > article:nth-child(1) > header {
+            background-color:red;
+        }
+        section > article:nth-child(2) > header {
+            background-color:orange;
+        }
+        section > article:nth-child(3) > header {
+            background-color:yellow;
+        }
+        section > article:nth-child(4) > header {
+            background-color:green;
+        }
+        section > article:nth-child(5) > header {
+            background-color:blue;
+        }
+        section > article:nth-child(6) > header {
+            background-color:purple;
+        }

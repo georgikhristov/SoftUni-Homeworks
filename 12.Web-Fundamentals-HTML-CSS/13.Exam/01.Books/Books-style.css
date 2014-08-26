@@ -1,0 +1,70 @@
+﻿body, html, section, article, p, header, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 11px;
+    width:471px;
+    margin:5px auto;
+}
+
+    section > article {
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        width: 145px;
+        height: 230px;
+        max-width: 145px;
+        position: relative;
+    }
+
+        section > article > img {
+            max-width: 100%;
+            border: 1px solid #E2E5EA;
+        }
+
+            section > article > img:hover {
+                cursor: pointer;
+            }
+
+        section > article > header {
+            text-transform: uppercase;
+            margin: 5px 0;
+        }
+
+            section > article > header:hover {
+                cursor: pointer;
+                color: #B0B0B0;
+            }
+
+        section > article > p.author {
+            color: #8283B8;
+            margin: 5px 0;
+        }
+
+        section > article > p.price {
+            color: #A01D17;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        section > article > button {
+            font-size: 10px;
+            text-transform: uppercase;
+            padding: 2px;
+            background-image: url("img/shopping-cart-inactive.png");
+            background-repeat: no-repeat;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0px;
+        }
+
+            section > article > button:hover {
+                background-image: url("img/shopping-cart-active.png");
+                cursor: pointer;
+            }

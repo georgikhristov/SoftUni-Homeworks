@@ -1,0 +1,79 @@
+﻿@font-face {
+    font-family: FakebookFont;
+    src: url(FACEBOLF.otf);
+}
+
+body {
+    font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+#wrapper {
+    background-color: #3B5997;
+    color: white;
+    width: 780px;
+    padding: 10px;
+}
+
+#title {
+    font-family: FakebookFont;
+    font-size: 90px;
+    text-align: center;
+}
+
+h1, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    min-height: 220px;
+}
+
+    fieldset:nth-child(1) {
+        max-width: 300px;
+    }
+
+input, select {
+    border-radius: 5px;
+    padding: 2px;
+    margin: 4px 0;
+    width: 130px;
+}
+
+select {
+    width: 138px;
+}
+
+.small {
+    width: 60px;
+}
+
+input[type='radio'] {
+    width: initial;
+    padding: initial;
+}
+
+textarea {
+    width: 99%;
+    height: 50px;
+}
+
+input[type='submit'] {
+    color: #3B5997;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#clear-form {
+    width: 309px;
+}
+
+#register {
+    width: 453px;
+}

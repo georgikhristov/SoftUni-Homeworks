@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fakebook Register</title>
+    <link href="Fakebook-style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="title">fakebook</div>
+        <h1>Registration</h1>
+        <h4>It is safe and it will always be</h4>
+        <form>
+            <fieldset>
+                <legend>None-important Information</legend>
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" /><br />
+                <input type="email" placeholder="Email" />
+                <input type="tel" placeholder="Phone Number" /><br />
+                <input type="password" placeholder="Your Password" />
+                <input type="text" placeholder="Website" /><br />
+                <label for="birthday">Birthday</label><br />
+                <input type="date" id="birthday" /><br />
+                <input type="radio" id="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" />
+                <label for="female">Female</label>
+                <input type="radio" id="other" />
+                <label for="other">Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>Important Information *required</legend>
+                <select required="required" tabindex="1">
+                    <option disabled="disabled" selected="selected">Country</option>
+                    <option>Bulgaria</option>
+                    <option>China</option>
+                    <option>England</option>
+                </select>
+                <input type="text" placeholder="Village" required="required" tabindex="4" />
+                <input type="text" placeholder="District" required="required" tabindex="3" /><br />
+                <input type="text" placeholder="Street" required="required" tabindex="2" />
+                <input type="text" class="small" placeholder="Nr" required="required" />
+                <input type="text" class="small" placeholder="Floor" required="required" />
+                <input type="text" class="small" placeholder="Ap Nr" required="required" /><br />
+                <label for="door-color">Door color</label><br />
+                <input type="color" id="door-color" />
+                <input type="text" placeholder="Water Meter Nr" required="required" />
+                <select required="required">
+                    <option disabled="disabled" selected="selected">Aunt Panties Size</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>XXXL</option>
+                    <option>XXXXL</option>
+                    <option>XXXXXL</option>
+                </select><br />
+                <label for="more-info">More personal information</label><br />
+                <textarea id="more-info" placeholder="Give us more personal information!!!" required="required"></textarea>
+            </fieldset>
+            <br />
+            <input type="submit" value="Clear form" id="clear-form" />
+            <input type="submit" value="Register" id="register" />
+        </form>
+    </div>
+</body>
+</html>

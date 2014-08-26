@@ -1,0 +1,148 @@
+﻿body, header, footer, section, article, nav, aside, ul, li, p, h2, img, #wrapper, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    font-family: Tahoma;
+    background-color: #90EE90;
+    padding: 0.1px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+    #wrapper ul li {
+        list-style-type: none;
+    }
+
+    #wrapper > header, #wrapper > section, #wrapper > aside, #wrapper > footer {
+        background-color: white;
+        margin: 10px;
+    }
+
+    #wrapper > header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: 100%;
+    }
+
+        #wrapper > header > nav {
+            display: flex;
+        }
+
+            #wrapper > header > nav > ul {
+                display: flex;
+                justify-content: space-between;
+                align-self: center;
+            }
+
+
+                #wrapper > header > nav > ul > li > a {
+                    display: block;
+                    background-color: #C7FBC7;
+                    padding: 10px;
+                    margin: 10px;
+                    text-decoration: none;
+                    color: black;
+                    text-transform: capitalize;
+                }
+
+    #wrapper > section {
+        width: 80%;
+        align-self: flex-start;
+    }
+
+        #wrapper > section > article {
+            background-color: #C7FBC7;
+            margin: 10px;
+            padding: 10px;
+            word-wrap: break-word;
+        }
+
+            #wrapper > section > article > div {
+                margin-bottom: 10px;
+            }
+
+    #wrapper > aside {
+        width: 15%;
+        padding: 10px;
+        align-self: flex-start;
+    }
+
+        #wrapper > aside img {
+            max-width: 100%;
+        }
+
+        #wrapper > aside > ul {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+
+    #wrapper > footer {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+@media all and (max-width:780px) {
+    #wrapper > header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        #wrapper > header img {
+            max-width: 255px;
+            align-self: center;
+        }
+
+        #wrapper > header > nav {
+            align-self: center;
+        }
+
+    #wrapper > section, #wrapper > aside {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:480px) {
+    #wrapper > header > nav {
+        width: 100%;
+    }
+
+        #wrapper > header > nav > ul {
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+            #wrapper > header > nav > ul > li {
+                width: 100%;
+            }
+
+                #wrapper > header > nav > ul > li > a {
+                    max-width: 100%;
+                    margin: 1px;
+                    text-align: center;
+                }
+
+    #wrapper > aside {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+        #wrapper > aside > ul > li {
+            width: 100%;
+        }
+
+            #wrapper > aside > ul > li > img {
+                display: block;
+                margin: 0 auto;
+            }
+}

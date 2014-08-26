@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PowerPoint Slide</title>
+  <style>
+    body {
+	  font-family:calibri;
+	}
+	#slide{
+	  background: url('images/background.jpg'); 
+	  width: 1050px; 
+	  height: 600px;
+	}
+	#logo{
+	  width:162px;
+	  height:60px;
+	  margin-left:888px;
+	  position:absolute;
+	}
+    #heading {
+	  padding-top:30px;
+	  padding-left: 20px;
+	  color:#F3CD60;
+	}
+	ul{
+	  color:#F3CD60;
+	}
+	.subhead {
+	  color:#FBEEC9;
+	  padding-left:10px;
+	  font-size: 30px;
+	}
+	.yellow-text{
+	  color:#F3CD60;
+	}
+	.block {
+	  background:#20201E; 
+	  width:90%;
+	  height:100%;
+	  border:1px solid; 
+	  border-color:#C7BFAC;
+	  font-size: 20px;
+	  padding:5px;
+	  margin-left: 30px;
+	  color:#FBEEC9;
+	}
+  </style>
+</head>
+<body>
+  <div id="slide">
+    <img id="logo" src="images/suf.png"></img>
+    <h1 id="heading">Headings and Paragraphs</h1>
+	<ul type="square">
+	  <li><h2 class="subhead">Heading tags: <span class="yellow-text">&lt;h1&gt;</span> &ndash; <span class="yellow-text">&lt;h6&gt;</span></h2>
+		<p class="block">&lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+		&lt;h2&gt;Sub Heading 2&lt;/h2&gt;<br>
+		&lt;h3&gt;Sub Heading 3&lt;/h3&gt;</p>
+	  </li>
+	  <li><h2 class="subhead">Paragraph tags: <span class="yellow-text">&lt;p&gt;</span></h2>
+		<p class="block">&lt;p&gt;This is my first paragraph&lt;/p&gt;<br>
+		&lt;p&gt;This is my second paragraph&lt;/p&gt;</p>
+	  </li>
+	  <li><h2 class="subhead">Sections: <span class="yellow-text">&lt;div&gt;</span> and <span class="yellow-text">&lt;span&gt;</span></h2>
+		<p class="block">&lt;div style="background: skyblue;"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;This is a div<br>&lt;/div&gt;</p>
+	  </li>
+	</ul>
+  </div>
+</body>
+</html>

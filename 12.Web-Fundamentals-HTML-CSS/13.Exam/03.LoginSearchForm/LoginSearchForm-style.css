@@ -1,0 +1,109 @@
+﻿body, html, form, section, input, button, h2, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Glyphicons;
+    src: url(resources/glyphicons-halflings-regular.ttf);
+}
+
+body {
+    background-image: url("resources/blurred-green-background.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    body > form {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+        body > form > #login {
+            height: 265px;
+            margin-top: 40px;
+            background-color: #EBF4E3;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            box-shadow: 1px 1px 5px grey;
+        }
+
+            body > form > #login > h2 {
+                background-color: #93D55C;
+                color: white;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                padding: 5px;
+                text-align: center;
+            }
+
+            body > form > #login > span.icon:before {
+                font-family: Glyphicons;
+                background-color: #EEEEEE;
+                padding: 10px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border: 1px solid #CECECE;
+                margin: 0 -4px 0 20px;
+                vertical-align: middle;
+                color: #555555;
+            }
+
+            body > form > #login > span:nth-child(2):before {
+                content: "\e008";
+            }
+
+            body > form > #login > span:nth-child(4):before {
+                content: "\e033";
+            }
+
+            body > form > #login > input {
+                width: 77%;
+                margin-top: 20px;
+                height: 41px;
+                border: 1px solid #CECECE;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-left: none;
+                padding: 5px;
+            }
+
+                body > form > #login > input[type='submit'] {
+                    width: 88%;
+                    color: white;
+                    margin: 30px 20px;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: #449D44;
+                    box-shadow: 0 5px 0 #229E22;
+                    padding: 10px;
+                }
+
+        body > form > #search {
+            margin-top: 20px;
+        }
+
+            body > form > #search > input {
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border: none;
+                padding: 8px;
+                width: 260px;
+            }
+
+            body > form > #search > button {
+                background-color: #449D44;
+                color: white;
+                border: none;
+                margin-left: -4px;
+                padding: 8px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                width: 90px;
+            }
+
+                body > form > #search > button > span.icon:before {
+                    content: "\e003";
+                    font-family: Glyphicons;
+                }

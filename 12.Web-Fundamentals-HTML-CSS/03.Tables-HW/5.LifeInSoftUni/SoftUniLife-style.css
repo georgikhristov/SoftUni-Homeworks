@@ -1,0 +1,51 @@
+﻿body {
+    font-family: 'PT Sans', Tahoma, sans-serif;
+}
+table, th, td {
+    border: 1px solid;
+}
+
+    table th {
+        font-size:50px;
+    }
+
+     table td {
+        height:120px;
+        width:120px;
+        font-size:20px;
+        padding:5px;
+    }
+        #google, #github, #fb {
+            vertical-align:top;
+        }
+
+        #github, #beer, #food {
+            text-align:end;
+        }
+
+        #fb, #youtube {
+            text-align:center;
+        }
+
+        #youtube, #food, #game {
+            vertical-align: bottom;
+        }
+
+        #beer {
+            font-size:30px;
+        }
+
+    table table {
+        margin:0px 5px;
+
+    }
+
+        table table td {
+            height:60px;
+            width:100px;
+            text-align:center;
+            font-size:16px;
+            padding:0px;
+        }
+
+

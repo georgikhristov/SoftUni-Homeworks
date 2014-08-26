@@ -1,0 +1,86 @@
+﻿body {
+    background-color:#EEEEEE;
+    font-family:'PT Sans', Tahoma, sans-serif;
+}
+    #title > h2 {
+        color:#214263;
+        font-size:25px;
+        font-weight:700;
+    }
+
+    #title > p {
+        font-size:12px;
+        font-weight:100;
+        color:#848484;
+    }
+
+    #register-div {
+        width:370px;
+        height: 300px;
+        display:inline-block;
+        padding-top:15px;
+        vertical-align:top;
+    }
+
+        #register-div input[type='submit'] {
+            border-color:#204263;
+            width:150px;
+            float:right;
+            margin-right:28px;
+        }
+
+    #login-div {
+        padding:5px;
+        padding-top:15px;
+        display:inline-block;
+        width:370px;
+        height: 300px;
+        background-color:#234465;   
+        vertical-align:top;
+    }
+
+        #login-div input[type='submit'] {
+            border-color: orange;
+            width:100px;
+            display:inline-block;
+            vertical-align:top;
+            margin-left: 90px;
+
+        }
+
+    form input {
+        width:330px;
+        height:35px;
+        margin:8px;
+    }
+
+        form input[type='submit'] {
+            padding:5px;
+            border: 1px solid;
+            background-color:inherit;
+        }
+
+        form input[type='checkbox'] {
+            width:15px;
+            height:15px;
+            display:inline-block;
+
+        }
+
+    .title {
+    text-transform:uppercase;
+    font-weight:900;
+    margin:8px 0px 8px 8px;
+    }
+
+    .white {
+        color:white;
+    }
+
+    .grey {
+        color:#656565;
+    }
+
+    .blue {
+        color:#204263;
+    }

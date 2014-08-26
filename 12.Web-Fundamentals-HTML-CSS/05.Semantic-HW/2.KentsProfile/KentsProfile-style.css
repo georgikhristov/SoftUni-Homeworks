@@ -1,0 +1,16 @@
+﻿#wrapper {
+    background-color:pink;
+    width:831px;
+    border-radius:5px;
+}
+h1 {
+    text-align:center;
+}
+section {
+    display:inline-block;
+    vertical-align:top;
+    margin:10px;
+}
+    section > header, img, label, meter, audio, embed, video {
+        display:block;
+    }

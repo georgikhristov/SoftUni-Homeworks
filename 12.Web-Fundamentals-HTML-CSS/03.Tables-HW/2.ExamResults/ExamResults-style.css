@@ -1,0 +1,17 @@
+﻿body {
+}
+table, td, th {
+  border:1px solid;
+}
+
+#table-head {
+  font-size:30px;
+}
+
+#col-head {
+  font-size:20px;
+}
+
+tfoot {
+    text-align:right;
+}

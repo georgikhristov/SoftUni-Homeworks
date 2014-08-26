@@ -1,0 +1,71 @@
+﻿body {
+    font-family: "DaxlineProBold","Ubuntu","Lucida","Trebuchet MS",sans-serif;
+    font-size: 0.8em;
+}
+
+#wrapper {
+    width: 1000px;
+    color: #2C425A;
+}
+
+#main > a {
+    display: inline-block;
+    border: 1px solid #E2F2FB;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+    color: #2C425A;
+}
+
+    #main > a > div {
+        background-color: #2C425A;
+        color: white;
+        border-top-left-radius: 5px;
+        padding: 5px;
+        width: 60px;
+        display: inline-block;
+        float: right;
+        margin: -4px;
+    }
+
+#main h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#main p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    max-width: 166px;
+}
+
+aside, #main {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    text-align: center;
+    border: 1px solid #E2F2FB;
+    padding: 5px;
+    margin: 5px;
+}
+
+    aside > section > input {
+        vertical-align: middle;
+    }
+
+.min {
+    float: left;
+}
+
+.max {
+    float: right;
+}
+
+input[type='range'] {
+    width: 180px;
+}
