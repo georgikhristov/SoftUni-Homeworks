@@ -1,0 +1,3 @@
+C# is a modern object-oriented, general-purpose programming language, created and developed by Microsoft together with the .NET platform. 
+.Net Framework consists of the .Net programming languages (one of them is C#), an environment for the development and execution of programs, a set of development tools (such as the csc compiler, which turns C# programs into intermediate code that the CLR can understand), and a set of standard libraries (like ADO.NET, which allows access to databases and WCF, which connects applications through standard communication frameworks and protocols)
+
