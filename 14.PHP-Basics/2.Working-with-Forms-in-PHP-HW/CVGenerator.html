@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Generator</title>
+</head>
+<body>
+<script src="CVGenerator.js"></script>
+<form method="post" action="CVGenerator.php">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <input type="text" name="first_name" placeholder="First Name"/><br>
+        <input type="text" name="last_name" placeholder="Last Name"/><br>
+        <input type="email" name="email" placeholder="Email"/><br>
+        <input type="text" name="phone" placeholder="Phone Number"/><br>
+        <input type="radio" name="gender" value="Male"/>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female"/>
+        <label for="Female">Female</label><br>
+        Birth Date: <br>
+        <input type="date" name="birth_date"/><br>
+        Nationality:<br>
+        <select name="nationality">
+            <option value="Bulgarian">Bulgarian</option>
+            <option value="Indian">Indian</option>
+            <option value="American">American</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Last Work Position</legend>
+        <input type="text" name="company" placeholder="Company Name"/><br>
+        From: <input type="date" name="work_from" placeholder="dd/mm/yyyy"/><br>
+        To: <input type="date" name="work_to" placeholder="dd/mm/yyyy"/><br>
+    </fieldset>
+    <fieldset>
+        <legend>Computer Skills</legend>
+        <div id="parentProgLang">
+            Programming Languages
+            <script>addProgrammingLanguage();</script>
+        </div>
+        <button><a href="javascript:addProgrammingLanguage();" style="color:black; text-decoration:none">Add
+            Language</a></button>
+    </fieldset>
+    <fieldset>
+        <legend>Other Skills</legend>
+        <div id="parentLang">
+            Languages
+            <script>addLanguage();</script>
+        </div>
+        <button><a href="javascript:addLanguage();" style="color:black; text-decoration:none">Add Language</a></button>
+        <br>
+        Driver's License<br>
+        <label for="B">B</label>
+        <input type="checkbox" name="license[]" value="B">
+        <label for="A">A</label>
+        <input type="checkbox" name="license[]" value="A">
+        <label for="C">C</label>
+        <input type="checkbox" name="license[]" value="C">
+        <label for="D">D</label>
+        <input type="checkbox" name="license[]" value="D">
+    </fieldset>
+    <input type="submit" value="Generate CV"/>
+</form>
+</body>
+</html>

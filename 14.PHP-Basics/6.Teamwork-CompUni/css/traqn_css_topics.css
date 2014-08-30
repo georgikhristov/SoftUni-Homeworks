@@ -1,0 +1,30 @@
+.discovery-post {
+	width: 700px;
+}
+.topic-wrapper {
+    background: #DEE2E8;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+.add-answer-btn {
+    width: 78px;
+    height: 24px;
+    font-size: 11px;
+    margin-left: 10px;
+    background: lightgray;
+    border: 0;
+    color : #60BC9C;
+}
+#answer-wrapper {
+    width: 550px;
+    background: #CFE2E8;
+    border: 1px solid #D2C2E5;
+}
+#top-comment {
+    display: inline;
+}
+#answer-comment {
+    width: 60px;
+    height: 24px;
+}

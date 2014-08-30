@@ -1,0 +1,1 @@
+<div>My name is <?=$_POST['name']?>. I am <?=$_POST['age']?> years old. I am <?=$_POST['sex']?>.</div>

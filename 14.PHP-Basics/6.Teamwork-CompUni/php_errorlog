@@ -1,0 +1,66 @@
+[27-Aug-2014 02:56:11] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/index.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 02:56:43] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/about.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 02:56:45] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/about.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 02:58:13] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/simpleTopicForm.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 03:01:00] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/simpleTopicForm.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 03:01:02] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/simpleTopicForm.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 03:01:06] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/simpleTopicForm.php' (include_path='.:/usr/local/php52/pear') in /home/okiana1/public_html/php_teamwork/trunk/singleTopicTemplate.php on line 4
+[27-Aug-2014 04:16:37] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 48
+[27-Aug-2014 04:17:36] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 48
+[27-Aug-2014 04:17:38] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 48
+[27-Aug-2014 04:18:03] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 48
+[27-Aug-2014 04:21:21] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:22:08] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:22:44] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:22:46] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:22:56] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:24:22] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:24:23] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:24:24] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:24:58] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:24:59] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:25:00] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:25:01] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:25:16] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:26:12] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:26:20] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:28:48] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:28:56] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:30:33] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:31:09] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:33:12] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:37:23] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:38:16] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:38:17] PHP Fatal error:  Call to undefined function  tep_session_id() in /home/okiana1/public_html/php_teamwork/trunk/includes/headerForm.php on line 17
+[27-Aug-2014 04:50:51] PHP Parse error:  syntax error, unexpected '[' in /home/okiana1/public_html/php_teamwork/trunk/includes/simpleTopicForm.php on line 36
+[27-Aug-2014 04:52:10] PHP Parse error:  syntax error, unexpected '<' in /home/okiana1/public_html/php_teamwork/trunk/includes/simpleTopicForm.php on line 54
+[27-Aug-2014 05:01:45] PHP Parse error:  syntax error, unexpected '}' in /home/okiana1/public_html/php_teamwork/trunk/includes/simpleTopicForm.php on line 47
+[27-Aug-2014 11:44:26] PHP Parse error:  syntax error, unexpected $end in /home/okiana1/public_html/php_teamwork/trunk/includes/simpleTopicForm.php on line 99
+[27-Aug-2014 11:44:30] PHP Parse error:  syntax error, unexpected $end in /home/okiana1/public_html/php_teamwork/trunk/includes/simpleTopicForm.php on line 99
+[27-Aug-2014 13:31:07] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:09] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:10] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:46] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:47] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:47] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:48] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:49] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:49] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:54] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:55] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:56] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:56] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:57] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:57] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:57] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:31:59] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:01] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:03] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:04] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:04] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:05] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:05] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:08] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:10] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:32:44] PHP Parse error:  syntax error, unexpected ';' in /home/okiana1/public_html/php_teamwork/trunk/includes/topicsForm.php on line 53
+[27-Aug-2014 13:58:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/okiana1/public_html/php_teamwork/trunk/about.php on line 3
