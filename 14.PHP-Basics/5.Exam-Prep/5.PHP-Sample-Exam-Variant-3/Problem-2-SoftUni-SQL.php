@@ -13,17 +13,6 @@
 //    "DELETE FROM users WHERE (age = 30)"];
 $commands = $_GET['commands'];
 
-
-//$commands = [
-//    "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)",
-//    "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)",
-//    "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)",
-//    "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)",
-//    "DELETE FROM users WHERE (login = yana)",
-//    "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)",
-//    "UPDATE users SET (age = 10) WHERE (user_id = 1)",
-//    "INSERT INTO users (userlogin, age, gender) VALUES (500, yana, 20, female)"];
-
 $errorCount = 0;
 $users = [];
 
@@ -40,12 +29,9 @@ foreach ($commands as $command) {
             break;
         default:
             $errorCount++;
-            //echo 'error command';
             break;
 
     }
-    //var_dump($users);
-    //var_dump($errorCount);
 }
 
 if(empty($users)){
@@ -76,15 +62,10 @@ function insertEntry($command)
     $fields = explode(", ", $groups[0]);
     $values = explode(", ", $groups[1]);
 
-    $hasNewId = false;
     if (count($fields) != count($values)) {
         $errorCount++;
-        //echo 'insert first if';
-//        var_dump($fields);
-//        var_dump($values);
     } elseif (!in_array('login', $fields)) {
         $errorCount++;
-        //echo 'insert second if';
     } else {
         $insertInfo = array_combine($fields, $values);
         if(!in_array('age', $fields)){
@@ -102,23 +83,6 @@ function insertEntry($command)
             $users[$tempId] = $insertInfo;
         }
 
-//        if (array_key_exists('user_id', $insertInfo)) {
-//            $hasNewId = true;
-//            $tempId = $insertInfo['user_id'];
-//            unset($insertInfo['user_id']);
-//        }
-//        if (!array_key_exists('age', $insertInfo)) {
-//            $insertInfo['age'] = 'undefined';
-//        }
-//        if (!array_key_exists('gender', $insertInfo)) {
-//            $insertInfo['gender'] = 'undefined';
-//        }
-//        arsort($insertInfo);
-//        if ($hasNewId) {
-//            $users[$tempId] = $insertInfo;
-//        } else {
-//            $users[] = $insertInfo;
-//        }
     }
 }
 
@@ -149,7 +113,6 @@ function updateEntry($command)
                 $users[$fieldValue] = $users[$conditionValue];
                 unset($users[$fieldValue]);
             } else{
-                //echo 'update first if-else';
                 $errorCount++;
             }
         }
@@ -163,7 +126,6 @@ function updateEntry($command)
             }
         }
         if($hasError){
-            //echo "update has error";
             $errorCount++;
         }
     } else {
@@ -180,7 +142,6 @@ function updateEntry($command)
                 $errorCount++;
             }
         } else{
-            //echo 'update last else';
             $errorCount++;
         }
     }
@@ -197,9 +158,11 @@ function deleteEntry($command)
     $conditionKey = $conditions[0];
     $conditionValue = $conditions[1];
 
-    if($conditionKey == 'user_id'){
+    if($conditionKey == 'login'){
+        $errorCount++;
+    } elseif($conditionKey == 'user_id'){
         unset($users[$conditionValue]);
-    } elseif($conditionKey == 'gender' || $conditionKey == 'age' || $conditionKey == 'login'){
+    } elseif($conditionKey == 'gender' || $conditionKey == 'age'){
         foreach($users as $id => $user){
             if($conditionValue == $user[$conditionKey]){
                 unset($users[$id]);
@@ -207,6 +170,5 @@ function deleteEntry($command)
         }
     } else{
         $errorCount++;
-        //echo 'delete else';
     }
 }
