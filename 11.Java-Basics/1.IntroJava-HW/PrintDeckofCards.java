@@ -3,9 +3,10 @@ public class PrintDeckofCards {
 
 	public static void main(String[] args) {
 		char[] suit = {'♠','♥','♦','♣'};
-		for (int i = 2; i < 15; i++){
+		for (int i =1 ; i < 15; i++){
             for (int j = 0; j < 4; j++){
                 switch (i){
+		    case 1:
                     case 2:
                     case 3:
                     case 4:
